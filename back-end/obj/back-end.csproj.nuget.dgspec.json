@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Code\\Passination\\R6S\\back-end\\back-end.csproj": {}
+    "D:\\Code\\Passination\\R6S\\back-end\\back-end.csproj": {}
   },
   "projects": {
-    "d:\\Code\\Passination\\R6S\\back-end\\back-end.csproj": {
+    "D:\\Code\\Passination\\R6S\\back-end\\back-end.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Code\\Passination\\R6S\\back-end\\back-end.csproj",
+        "projectUniqueName": "D:\\Code\\Passination\\R6S\\back-end\\back-end.csproj",
         "projectName": "back-end",
-        "projectPath": "d:\\Code\\Passination\\R6S\\back-end\\back-end.csproj",
+        "projectPath": "D:\\Code\\Passination\\R6S\\back-end\\back-end.csproj",
         "packagesPath": "C:\\Users\\tuan\\.nuget\\packages\\",
-        "outputPath": "d:\\Code\\Passination\\R6S\\back-end\\obj\\",
+        "outputPath": "D:\\Code\\Passination\\R6S\\back-end\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,26 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
