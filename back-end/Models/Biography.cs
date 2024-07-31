@@ -11,5 +11,6 @@ public class Biography
 
     //a operator is only have one Biography
     public Operator Operator { get; set; }
+    public string OperatorId { get; set; }
 
 }
