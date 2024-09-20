@@ -136,3 +136,5 @@ _NCrunch*
 node_modules/
 
 Migrations/
+
+.vs/
