@@ -8,7 +8,7 @@ public class R6SContext : DbContext
 {
     public R6SContext(DbContextOptions<R6SContext> options) : base(options)
     {
-
+        
     }
 
     public DbSet<Ability> Ability { get; set; }

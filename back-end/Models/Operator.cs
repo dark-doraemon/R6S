@@ -5,7 +5,6 @@ public class Operator
     public string OperatorId { get; set; }  
     public string OperatorName { get; set; }
     public string Icon { get; set; }    
-
     public string AbilityId { get; set; }
     public Ability Ability { get; set; }
     public string SideId { get; set; }
