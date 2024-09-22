@@ -14,7 +14,7 @@ builder.Services.AddCors();
 
 builder.Services.AddDbContext<R6SContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DockerMSSQLConnection"));
 });
 
 var app = builder.Build();
